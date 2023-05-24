@@ -1,4 +1,4 @@
-/* Lightwaves project (project_a) stylesheet */
+/* Home page (index.html) style sheet */
 
 /* Imported fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
@@ -66,4 +66,71 @@ button {
 
 button:hover {
     background-color: rgba(0, 136, 169, 0.7);
+}
+
+
+
+/*
+HOME page 
+*/
+.home {
+    margin: 100px 40px 50px 40px;
+    display: flex;
+    align-items: center;
+}
+
+/* Bio */
+.bio {
+    display: flex;
+    align-items: center;
+}
+
+#aarocerr_image {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#bio_text {
+    margin-left: 40px;
+    margin-right: 140px;
+    font-size: 140%;
+    line-height: 140%;
+}
+
+#bio_text h3 {
+    color: #0088a9;
+}
+
+/* GitHub */
+.github {
+    display: flex;
+    align-items: center;
+}
+
+#github_image {
+    width: 310px;
+    height: auto;
+    border-radius: 50px;
+}
+
+#github_text {
+    margin-left: 40px;
+    line-height: 150%;
+}
+
+#github_text h2 {
+    color: #0088a9;
+}
+
+#github_text p {
+    font-size: 110%;
+}
+
+#github_text a {
+    color: #0088a9;
+}
+
+#github_text a:hover {
+    color: #056077;
 }

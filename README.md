@@ -3,7 +3,7 @@ website for Science F class
 
 # PROJECT STRUCTURE
 
-MyProject/
+ScienceWebsite/
 
 ├── html/
 

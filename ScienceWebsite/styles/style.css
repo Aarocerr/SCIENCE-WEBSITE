@@ -1,20 +1,25 @@
-/*Imported fonts*/
+/* Lightwaves project (project_a) stylesheet */
+
+/* Imported fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-/*Navigation bar styles*/
 * {
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+    background-color: #24252A;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
 }
 
-li, a, button {
-    font-family: "Montserrat", sans-serif;
+/*
+Navigation bar styles
+*/
+li, header a, button {
     font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
+    font-size: 18px;
     text-decoration: none;
+    background-color: #1e1f22;
 }
 
 header {
@@ -22,6 +27,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
+    background-color: #1e1f22;
 }
 
 .logo {
@@ -61,5 +67,3 @@ button {
 button:hover {
     background-color: rgba(0, 136, 169, 0.7);
 }
-
-/*HOME page*/

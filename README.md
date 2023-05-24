@@ -1,7 +1,7 @@
 # SCIENCE-WEBSITE
 website for Science F class
 
-PROJECT STRUCTURE:
+# PROJECT STRUCTURE
 
 MyProject/
 

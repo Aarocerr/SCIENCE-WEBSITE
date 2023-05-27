@@ -12,10 +12,16 @@
     padding: 0;
 }
 
+body h2 {
+    color: #0088a9;
+}
+
 /*
 Navigation bar styles
 */
-li, header a, button {
+li,
+header a,
+#tasis_button {
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
@@ -54,7 +60,7 @@ header {
     color: #0088a9;
 }
 
-button {
+#tasis_button {
     margin-left: 30px;
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
@@ -64,6 +70,15 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
+#tasis_button:hover {
     background-color: rgba(0, 136, 169, 0.7);
+}
+
+
+
+/*
+project_explanation styles
+*/
+#project_explanation {
+    display: flex;
 }

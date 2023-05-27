@@ -16,13 +16,16 @@ ScienceWebsite/
       readme_node.png
     videos/
       lightwaves_video.mp4
+      
   html/
     index.html
     project_a.html
     project_b.html
     project_c.html
+  
   scripts/
     project_a.js
+  
   styles/
     style.css
     project_a.css

@@ -1,30 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LIGHTWAVES -- AARON</title>
-    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
-    <link rel="stylesheet" href="../styles/style_a.css">
-  </head>
 
-  <body>
-    <header>
-      <img class="logo" src="../assets/images/logo.ico" alt="logo">
-      
-      <!-- Navigation bar -->
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="project_a.html">Lightwaves</a></li>
-          <li><a href="project_b.html">DC Motor</a></li>
-          <li><a href="project_c.html">Harnessing Human Energy</a></li>
-        </ul>
-      </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LIGHTWAVES -- AARON</title>
+  <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+  <link rel="stylesheet" href="../styles/style_a.css">
+  <script src="../scripts/project_a.js"></script>
+</head>
 
-      <!-- Redirects to TASIS page -->
-      <a class="cta" href="https://www.tasisengland.org/"><button>TASIS ENG</button></a>
-    </header>
-    </body>
+<body>
+  <header>
+    <img class="logo" src="../assets/images/logo.ico" alt="logo">
+
+    <!-- Navigation bar -->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project_a.html">Lightwaves</a></li>
+        <li><a href="project_b.html">DC Motor</a></li>
+        <li><a href="project_c.html">Harnessing Human Energy</a></li>
+      </ul>
+    </nav>
+
+    <!-- Redirects to TASIS page -->
+    <a class="cta" href="https://www.tasisengland.org/"><button id="tasis_button">TASIS ENG</button></a>
+  </header>
+
+  <div class="programming">
+    <div class="code_section">
+      <div class="sidebox">
+        <!-- Scale down in CSS; remove previous button styles -->
+        <button id="src_node"><img src="../assets/images/folder_node.png">src</button>
+        <div id="nested_files">
+          <button class="file_node" onclick="changeCode('ChangeToGlass.cs')"><img
+              src="../assets/images/file_node.png">ChangeToGlass.cs</button>
+          <button class="file_node" onclick="changeCode('ChangeToWater.cs')"><img
+              src="../assets/images/file_node.png">ChangeToWater.cs</button>
+          <button class="file_node" onclick="changeCode('QuitGame.cs')"><img
+              src="../assets/images/file_node.png">QuitGame.cs</button>
+          <button class="file_node" onclick="changeCode('ScienceProjectScript.cs')"><img
+              src="../assets/images/file_node.png">ScienceProjectScript.cs</button>
+        </div>
+        <button class="readme_node" onclick="changeCode('README.md')"><img
+            src="../assets/images/readme_node.png">README.md</button>
+      </div>
+
+      <div class="code_container">
+        <pre>
+            <code id="code_text">
+                          OPEN FILE BY CLICKING ON <br>                 THE FILE TREE NODES ON THE LEFT
+            </code>
+          </pre>
+      </div>
+    </div>
+
+    <div class="text_explanation">
+      <h2>Programming The Project</h2>
+      <br>
+      <p>
+        Project description: The lightwaves project is about programming a 2D model
+        of the refraction of light using Snell's law. This required us to study and
+        understand the physics behind the problem, and later apply it through our
+        program.
+        <br><br>
+        This was my favourite project this year as I got to work with my friend from
+        another class and I got to do something I love... <i>coding</i>.
+        <br><br>
+        To the left is all of the code used in the project. Feel free to click through
+        the files to see how it works. It's all programmed in C# using Unity.
+        Alternatively, you can look at the code in <a
+          href="https://github.com/Aarocerr/Snell-s-Law-Science-Project/tree/main/src" target="_blank">this GitHub
+          repo</a>.
+        Unrelated: Please follow my GitHub account...
+      </p>
+    </div>
+  </div>
+
+  <div class="project_description">
+    <div id="video">
+      <video width="75%" height="auto" controls>
+        <source src="../assets/videos/lightwaves_video.mp4">
+      </video>
+    </div>
+
+    <div id="video_text">
+      <h2>General Notes</h2>
+      <br>
+      <p>
+        The video to the left is what we programmed for our project. <br>
+        This project gave us a way to put the concepts we worked on <br>
+        in a usable, presentable, and creative piece of code. <br>
+        <br>
+        This project definitely helped with my teamwork skills, as I <br>
+        had to split up the work evenly with my partner to get the <br>
+        most out of the project. This was a challenge for me considering <br>
+        how much stuff there was to at a deadline.<br>
+      </p>
+    </div>
+  </div>
+</body>
+
 </html>

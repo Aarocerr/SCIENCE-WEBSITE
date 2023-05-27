@@ -15,7 +15,9 @@
 /*
 Navigation bar styles
 */
-li, header a, button {
+li,
+header a,
+#tasis_button {
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
@@ -54,7 +56,7 @@ header {
     color: #0088a9;
 }
 
-button {
+#tasis_button {
     margin-left: 30px;
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
@@ -64,6 +66,113 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
+#tasis_button:hover {
     background-color: rgba(0, 136, 169, 0.7);
+}
+
+
+
+/*
+Scrollable code section
+*/
+.code_section {
+    display: flex;
+    margin: 50px 0 0 50px;
+    padding: 10px;
+}
+
+/* Sidebox styles */
+.sidebox {
+    background-color: #1e2130;
+    border-radius: 5px;
+}
+
+
+.sidebox button {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.sidebox button:hover {
+    background-color: #161822;
+}
+
+.sidebox img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+#nested_files {
+    margin-left: 35px;
+    background-color: #1e2130;
+}
+
+/* Codebox styles */
+.code_container {
+    height: 400px;
+    width: 500px;
+    overflow: auto;
+    padding: 10px;
+    white-space: nowrap;
+    background-color: #353638;
+}
+
+#code_text {
+    color: rgb(149, 149, 149);
+}
+
+/* Code explanation styles */
+.programming {
+    display: flex;
+}
+
+.text_explanation {
+    margin: 75px 60px 50px 30px;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.text_explanation h2 {
+    color: #0088a9;
+}
+
+.text_explanation a {
+    color: #0088a9;
+}
+
+.text_explanation a:hover {
+    color: #056077;
+}
+
+
+
+/*
+Project description styles  
+*/
+.project_description {
+    margin: 70px auto 60px 60px;
+    display: flex;
+}
+
+video {
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#video_text {
+    width: 740px;
+    height: 90px;
+    margin-right: 170px;
+    font-size: 105%;
+}
+
+#video_text h2 {
+    color: #0088a9;
 }
